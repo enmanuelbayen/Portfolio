@@ -6,17 +6,23 @@
     display: flex;
 }
 
-body{
+* {
+    padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
     background-color: black;
 }
 
 .header {
     background: #3C3A39;
     justify-content: space-between;
-    margin: 0;
+    padding: 20px 5%;
     align-items: center;
-    padding: 10px 24px 5px;
+    width: 100%;
 }
 
 .logo {
@@ -28,45 +34,41 @@ body{
  line-height: 100%;
 }
 
-
 .headline {
-  display: flex;
-  align-items: left;
-  flex-direction: column;
+padding: 8% 0%;  
 }
 
 .banner {
     background-image: url("Group.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right 0 bottom 0
-    ;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right 0% bottom 0%;
+  display: flex;
+   align-content: center;
+   flex-flow: wrap;
+   padding: 10% 5% 5%;
 }
 
 .title{
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 56px;
     font-weight: 400;
     line-height: 64px;
     color: #FF6B00;
-    text-align: center;
 }
 
 .hi{
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
-    text-align: left;
     color: #FFF5E1;
 }
 
 .bio{
-    font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    text-align: center;
     color: #FFFFFF;
 
 }
