@@ -1,3 +1,44 @@
-.title {
-  color: orange;
+#toolbar {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 44px;
+    bottom: 0px;
+    background: #3C3A39;
+}
+
+#logo {
+    height: 24px;
+    width: 70px;
+    left: 12px;
+    top: 10px;
+    border-radius: nullpx;
+    
+color: #FFFFFF;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.menu_button{
+    height: 0px;
+    width: 16px;
+    left: 4px;
+    top: 17px;
+    border-radius: 0px;
+    background: #ACB7C3;
+    border: 2px solid #ACB7C3
+
 }
