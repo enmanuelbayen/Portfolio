@@ -6,6 +6,10 @@
   display: flex;
 }
 
+li {
+    list-style: none;
+  }
+
 * {
   padding: 0;
   margin: 0;
@@ -38,14 +42,19 @@ body {
   background-image: url("Group.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: right 0% bottom 0%;
+  background-position: right 0 bottom 0;
+  padding: 25% 0 0;
+}
+
+.space {
+    padding: 9px;
 }
 
 .banner {
-  display: flex;
   align-content: center;
   flex-flow: wrap;
-  padding: 10% 5% 5%;
+  padding: 12px 5% 5%;
+  line-height: 12px;
 }
 
 .title {
@@ -76,15 +85,24 @@ a {
   cursor: pointer;
 }
 
-.social {
-  display: flex;
-  padding: 0%;
+.social{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ padding: 0px;
+ width: 200px;
+ height: 40px;
+}
+
+.list {
+    display: flex;
+    align-items: flex-start;
+    padding: 12px 15%;
 }
 
 .media {
-  flex: 1;
+ 
+    width: 24px;
+    height: 24px;
 }
 
-li {
-  list-style: none;
-}
