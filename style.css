@@ -1,44 +1,65 @@
-#toolbar {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 44px;
-    bottom: 0px;
+/*  theme  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+.flex{
+    display: flex;
+}
+
+.header {
     background: #3C3A39;
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+    padding: 25px 24px 12px 24px;
 }
 
-#logo {
-    height: 24px;
-    width: 70px;
-    left: 12px;
-    top: 10px;
-    border-radius: nullpx;
-    
-color: #FFFFFF;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 24px;
-/* identical to box height, or 133% */
-
-display: flex;
-align-items: center;
-text-align: center;
-
-flex: none;
-order: 0;
-flex-grow: 0;
+.logo {
+ color: white;
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 24px;
 }
 
-.menu_button{
-    height: 0px;
-    width: 16px;
-    left: 4px;
-    top: 17px;
-    border-radius: 0px;
-    background: #ACB7C3;
-    border: 2px solid #ACB7C3
 
+.picture {
+    background-image: url(Group.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.title{
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64px;
+    color: #FF6B00;
+    text-align: center;
+}
+
+.hi{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #FFF5E1;
+}
+
+.bio{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+body{
+    margin: 0;
+    background-color: black;
 }
