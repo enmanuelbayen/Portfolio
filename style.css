@@ -19,6 +19,9 @@ li {
 body {
   font-family: 'Poppins', sans-serif;
   background-color: black;
+  background-image: url("Group.png");
+  background-repeat: no-repeat;
+  background-position: right 0 top 370px;
 }
 
 .header {
@@ -39,10 +42,6 @@ body {
 }
 
 .headline {
-  background-image: url("Group.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right 0 bottom 0;
   padding: 25% 0 0;
 }
 
@@ -102,7 +101,6 @@ a {
 
 .media {
  
-    width: 24px;
-    height: 24px;
+ padding-right: 20px;
 }
 
