@@ -70,3 +70,21 @@ body{
     color: #FFFFFF;
 
 }
+
+a{
+    list-style: none;
+    cursor: pointer;
+}
+
+.social {
+    display: flex;
+    padding: 0%;
+}
+
+.media {
+    flex: 1;
+}
+
+li {
+    list-style: none;
+}
