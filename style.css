@@ -2,91 +2,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
 
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Poppins';
-    background-color: black;
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
 }
 
 .header {
-    background: #3C3A39;
-    justify-content: space-between;
-    padding: 20px 5%;
-    align-items: center;
-    width: 100%;
+  background: #3c3a39;
+  justify-content: space-between;
+  padding: 20px 5%;
+  align-items: center;
+  width: 100%;
 }
 
 .logo {
- color: white;
- font-family: 'Roboto';
- font-style: normal;
- font-weight: 700;
- font-size: 18px;
- line-height: 100%;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
 }
 
 .headline {
-padding: 8% 0%;  
-}
-
-.banner {
-    background-image: url("Group.png");
+  background-image: url("Group.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right 0% bottom 0%;
+}
+
+.banner {
   display: flex;
-   align-content: center;
-   flex-flow: wrap;
-   padding: 10% 5% 5%;
+  align-content: center;
+  flex-flow: wrap;
+  padding: 10% 5% 5%;
 }
 
-.title{
-    font-family: 'Roboto';
-    font-size: 56px;
-    font-weight: 400;
-    line-height: 64px;
-    color: #FF6B00;
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+  color: #ff6b00;
 }
 
-.hi{
-    font-family: 'Roboto';
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 32px;
-    color: #FFF5E1;
+.hi {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #fff5e1;
 }
 
-.bio{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #FFFFFF;
-
+.bio {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
 }
 
-a{
-    list-style: none;
-    cursor: pointer;
+a {
+  list-style: none;
+  cursor: pointer;
 }
 
 .social {
-    display: flex;
-    padding: 0%;
+  display: flex;
+  padding: 0%;
 }
 
 .media {
-    flex: 1;
+  flex: 1;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
