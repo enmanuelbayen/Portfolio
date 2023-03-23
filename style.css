@@ -6,12 +6,17 @@
     display: flex;
 }
 
+body{
+    margin: 0;
+    background-color: black;
+}
+
 .header {
     background: #3C3A39;
     justify-content: space-between;
     margin: 0;
     align-items: center;
-    padding: 25px 24px 12px 24px;
+    padding: 10px 24px 5px;
 }
 
 .logo {
@@ -20,15 +25,22 @@
  font-style: normal;
  font-weight: 700;
  font-size: 18px;
- line-height: 24px;
+ line-height: 100%;
 }
 
 
-.picture {
-    background-image: url(Group.png);
+.headline {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+}
+
+.banner {
+    background-image: url("Group.png");
     background-repeat: no-repeat;
     background-size: contain;
-
+    background-position: right 0 bottom 0
+    ;
 }
 
 .title{
@@ -57,9 +69,4 @@
     text-align: center;
     color: #FFFFFF;
 
-}
-
-body{
-    margin: 0;
-    background-color: black;
 }
