@@ -6,7 +6,7 @@
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 * {
@@ -16,12 +16,11 @@ li {
 }
 
 a {
-    list-style: none;
-    cursor: pointer;
+  list-style: none;
+  cursor: pointer;
 }
 
-
-  body {
+body {
   font-family: 'Poppins', sans-serif;
   text-align: left;
   background-color: black;
@@ -56,14 +55,13 @@ a {
 }
 
 .title {
- font-family: 'Crete Round', sans-serif;
- font-style: normal;
- font-weight: 400;
- font-size: 56px;
- line-height: 64px;
- letter-spacing: 0.37px;
- color: #ff6b00;
- 
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
 }
 
 .hi {
@@ -76,23 +74,22 @@ a {
 }
 
 .bio {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
   color: #fff;
   padding-top: 12px;
 }
 
 .icon {
-    display: flex;
-    align-items: flex-start;
-    padding: 0px 24px;
-    padding-top: 12px;
+  display: flex;
+  align-items: flex-start;
+  padding: 0 24px;
+  padding-top: 12px;
 }
 
-.social-icons { 
-    padding-top: 12px;
- padding-right: 20px;
+.social-icons {
+  padding-top: 12px;
+  padding-right: 20px;
 }
-
