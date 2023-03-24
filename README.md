@@ -36,16 +36,9 @@ Will have future changes in the next days!
 
 ### Install
 
-Install this project with:
-
-
-Run command:
-
-```sh
-  cd my-project
-  npm install
-```
---->
+1. Go to the [repository page](https://github.com/enmanuelbayen/Portfolio/tree/main).
+2. Press the "Code" button and copy the link.
+3. Clone it using git command `git clone <link>`.
 
 ### Usage
 
@@ -75,6 +68,16 @@ Open index.html using live server extension.
 
 
 If you like this project just keep an eye on the changes that I will bring over time, having an audience on this journey is enough support!
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome! Will help me a lot to improve my coding skills.
+
+Feel free to check the [issues page](../../issues/).
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank to my family and God for the opportunities to always improve despite adversity, my girlfriend and friends for being there for me, and Microverse for providing a platform to achieve this goal.
 
 ## 📝 License <a name="license"></a>
 
