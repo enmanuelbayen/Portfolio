@@ -1,5 +1,5 @@
 /*  theme  */
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap');
 
 .flex {
   display: flex;
@@ -91,4 +91,34 @@ body {
 .social-icons {
   padding-top: 12px;
   padding-right: 15px;
+}
+
+.button{
+ align-items: center;
+ color: #fff;
+ background-color: #F55800;
+ font-family: 'Inter', sans-serif;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 17px;
+ line-height: 24px;
+ letter-spacing: 0.03em;
+ padding: 12px;
+}
+
+.button:hover{
+background: #FFF5E1;
+color: #F55800;
+border-color: #F55800;
+}
+.button:active{
+  color: #fff;
+  background: #E05304;
+}
+
+.button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  background: #F4F1F0;
+  color: #5B5957;
 }
