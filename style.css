@@ -51,7 +51,7 @@ a {
 
 .menu-icon {
   display: block;
-  padding-right: 40px;
+  padding-right: 60px;
 }
 
 .landing_page {
@@ -89,8 +89,7 @@ a {
 
 .icon {
   align-items: flex-start;
-  padding: 0 10px;
-  padding-top: 12px;
+  padding: 12px 10px 0;
 }
 
 .social-icons {
@@ -147,29 +146,41 @@ a {
   font-size: 32px;
   line-height: 44px;
   color: #1C1A19;
-  padding: 40px 14% 0;
+  padding: 40px 12% 0;
 }
 
 .work_page{
   color: #091E42;
-  text-align: left;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
   gap: 12px;
-  padding: 6% 10%;
+  padding: 12px 6%;
+}
+
+.project-section{
+  justify-items: center;
+  row-gap: 12px;
+  }
+
+.deck{
+  position: relative;
+  flex-direction: column;
+  width: min-content;
 }
 
 .card {
+  position: absolute;
   color:#FFFFFF;
-  text-align: left;
   flex-direction: column;
-  justify-content: space-evenly;
   gap: 12px;
-  padding: 6% 10%;
-  background-image: url("./photofondo.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+  border: solid yellow;
+  padding: 30% 0 0;
+}
+
+.space{
+  padding: 0 5%;
 }
 
 .work-titles {
@@ -177,7 +188,6 @@ font-family: 'Crete Round', sans-serif;
 font-size: 32px;
 font-weight: 400;
 line-height: 44px;
-padding-top: 12px;
 }
 
 .project-explain {
@@ -204,6 +214,11 @@ padding-top: 12px;
   padding: 10px 12px;
 }
 
-#button-work-page1{
+#button-work-page{
   align-self: flex-start;
+  margin-bottom: 24px;
+}
+
+.button_project{
+ margin-top: 18px;
 }
