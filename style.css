@@ -1,0 +1,128 @@
+/*  theme  */
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap');
+
+.flex {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  list-style: none;
+  cursor: pointer;
+}
+
+.main_page {
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  background-color: black;
+  background-image: url("Group.png");
+  background-repeat: no-repeat;
+  background-position: right 0 top 125%;
+}
+
+.header {
+  background: #3c3a39;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 12px 10px;
+}
+
+.logo {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+}
+
+.menu-icon {
+  display: block;
+  padding-right: 40px;
+}
+
+.landing_page {
+  padding: 20% 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.title {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  padding-top: 30px;
+}
+
+.sub-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #fff5e1;
+  padding-top: 12px;
+}
+
+.bio {
+  color: #fff;
+  padding-top: 12px;
+  border-radius: nullpx;
+}
+
+.icon {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 10px;
+  padding-top: 12px;
+}
+
+.social-icons {
+  padding-top: 12px;
+  padding-right: 15px;
+}
+
+.button {
+  margin: 40px;
+  color: #fff;
+  background-color: #f55800;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  padding: 12px;
+}
+
+.button:hover {
+  background: #fff5e1;
+  color: #f55800;
+  border-color: #f55800;
+}
+
+.button:active {
+  color: #fff;
+  background: #e05304;
+}
+
+.button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  background: #f4f1f0;
+  color: #5b5957;
+}
