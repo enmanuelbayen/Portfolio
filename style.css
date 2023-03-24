@@ -31,9 +31,9 @@ a {
 .header {
   background: #3c3a39;
   justify-content: space-between;
-  padding: 20px 5%;
   align-items: center;
   width: 100%;
+  padding: 20px 12px 10px;
 }
 
 .logo {
@@ -43,6 +43,11 @@ a {
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
+}
+
+.menu-icon{
+  display: block;
+  padding-right: 40px;
 }
 
 .landing_page {
@@ -64,7 +69,7 @@ a {
   padding-top: 30px;
 }
 
-.hi {
+.sub-title {
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-weight: 700;
