@@ -12,7 +12,6 @@ li {
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
 
 a {
@@ -20,13 +19,13 @@ a {
   cursor: pointer;
 }
 
-body {
+.main_page {
   font-family: 'Poppins', sans-serif;
   text-align: left;
   background-color: black;
   background-image: url("Group.png");
   background-repeat: no-repeat;
-  background-position: right 0 top 117%;
+  background-position: right 0 top 92%;
 }
 
 .header {
@@ -93,7 +92,7 @@ body {
 }
 
 .button {
-  align-items: center;
+  margin: 40px;
   color: #fff;
   background-color: #f55800;
   font-family: 'Inter', sans-serif;
