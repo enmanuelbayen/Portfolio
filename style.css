@@ -151,12 +151,25 @@ a {
 }
 
 .work_page{
+  color: #091E42;
   text-align: left;
   flex-direction: column;
   justify-content: space-evenly;
   gap: 12px;
-  padding: 6% 24px;
-  flex-grow: 0;
+  padding: 6% 10%;
+}
+
+.card {
+  color:#FFFFFF;
+  text-align: left;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 12px;
+  padding: 6% 10%;
+  background-image: url("./photofondo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .work-titles {
@@ -164,12 +177,10 @@ font-family: 'Crete Round', sans-serif;
 font-size: 32px;
 font-weight: 400;
 line-height: 44px;
-color: #091E42;
 padding-top: 12px;
 }
 
 .project-explain {
- color: #091E42;
  font-family: 'Inter', sans-serif;
  font-style: normal;
  font-weight: 400;
@@ -178,12 +189,18 @@ padding-top: 12px;
 }
 
 .code-lenguaje-use {
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content:flex-start;
+  gap: 12px;
 }
+
 
 .code-lenguaje-box {
   border: 1px solid #8993A4;
+  padding: 10px 12px;
+}
+
+.code-lenguaje-box1 {
+  background: #FFFFFF3D;
   padding: 10px 12px;
 }
 
