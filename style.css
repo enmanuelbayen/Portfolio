@@ -1,6 +1,5 @@
 /*  theme  */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&display=swap');
 
 .flex {
   display: flex;
@@ -8,7 +7,7 @@
 
 li {
     list-style: none;
-  }
+}
 
 * {
   padding: 0;
@@ -16,12 +15,19 @@ li {
   box-sizing: border-box;
 }
 
-body {
+a {
+    list-style: none;
+    cursor: pointer;
+}
+
+
+  body {
   font-family: 'Poppins', sans-serif;
+  text-align: left;
   background-color: black;
   background-image: url("Group.png");
   background-repeat: no-repeat;
-  background-position: right 0 top 370px;
+  background-position: right 0 top 120%;
 }
 
 .header {
@@ -41,27 +47,23 @@ body {
   line-height: 100%;
 }
 
-.headline {
-  padding: 25% 0 0;
-}
-
-.space {
-    padding: 9px;
-}
-
-.banner {
-  align-content: center;
-  flex-flow: wrap;
-  padding: 12px 5% 5%;
-  line-height: 12px;
+.landing_page {
+  padding: 20% 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
 }
 
 .title {
-  font-family: 'Roboto', sans-serif;
-  font-size: 56px;
-  font-weight: 400;
-  line-height: 64px;
-  color: #ff6b00;
+ font-family: 'Crete Round', sans-serif;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 56px;
+ line-height: 64px;
+ letter-spacing: 0.37px;
+ color: #ff6b00;
+ 
 }
 
 .hi {
@@ -70,37 +72,27 @@ body {
   font-weight: 700;
   line-height: 32px;
   color: #fff5e1;
+  padding-top: 12px;
 }
 
 .bio {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
   color: #fff;
+  padding-top: 12px;
 }
 
-a {
-  list-style: none;
-  cursor: pointer;
-}
-
-.social{
- display: flex;
- flex-direction: row;
- align-items: center;
- padding: 0px;
- width: 200px;
- height: 40px;
-}
-
-.list {
+.icon {
     display: flex;
     align-items: flex-start;
-    padding: 12px 15%;
+    padding: 0px 24px;
+    padding-top: 12px;
 }
 
-.media {
- 
+.social-icons { 
+    padding-top: 12px;
  padding-right: 20px;
 }
 
