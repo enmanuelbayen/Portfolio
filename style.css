@@ -1,5 +1,5 @@
 /*  theme  */
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Meera+Inimai&family=Poppins&family=Roboto&display=swap');
 
 .flex {
   display: flex;
@@ -99,7 +99,7 @@ a {
 
 .button {
   color: #fff;
-  background-color: #f55800;
+  background-color: #FF6B00;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -161,7 +161,8 @@ a {
 
 .project-section{
   justify-items: center;
-  row-gap: 12px;
+  row-gap: 3%;
+  padding-bottom: 20%;
   }
 
 .deck{
@@ -175,7 +176,6 @@ a {
   color:#FFFFFF;
   flex-direction: column;
   gap: 12px;
-  border: solid yellow;
   padding: 30% 0 0;
 }
 
@@ -221,4 +221,58 @@ line-height: 44px;
 
 .button_project{
  margin-top: 18px;
+}
+
+.about_me_page{
+  background-color: #1C1A19;
+  background-image: url(./group2.png);
+  background-repeat: no-repeat;
+  background-position: right 0 top 100%;
+  padding: 25% 24px 50%;
+  margin: 100% 0 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+#aboutme-title{
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #FF6B00;
+}
+
+#aboutme-text{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f1f0;
+}
+
+.knowlegde_page{
+background-color: #1C1A19;
+}
+
+.myskills_list{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.skill{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 43px;
+color: #FFFFFF;
 }
