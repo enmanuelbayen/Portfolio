@@ -224,7 +224,7 @@ line-height: 44px;
 }
 
 .about_me_page{
-  /* background-color: #1c1a19; */
+  background-color: #1c1a19;
   background-image: url(./group2.png);
   background-repeat: no-repeat;
   background-position: right 0 top 100%;
@@ -256,7 +256,16 @@ line-height: 44px;
 
 .knowlegde_page{
 background-color: #1C1A19;
+padding-bottom: 100px;
 text-align: center;
+}
+
+.devider-line{
+  padding-bottom: 80px;
+}
+
+.orange_figure{
+  padding-right: 18px;
 }
 
 .skill_mention{
@@ -266,10 +275,13 @@ text-align: center;
   font-size: 32px;
   line-height: 44px;
   color: #FFFFFF;
+  padding: 32px 80px 32px 32px;
 }
 
 .myskills_list{
+  flex-direction: column;
   align-items: center;
+  gap: 12px;
 }
 
 .skill{
