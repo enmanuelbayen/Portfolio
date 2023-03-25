@@ -27,7 +27,7 @@ a {
   font-family: 'Poppins', sans-serif;
   text-align: left;
   background-color: black;
-  background-image: url("Group.png");
+  background-image: url("./img/Group.png");
   background-repeat: no-repeat;
   background-position: right 0 top 114%;
 }
@@ -223,7 +223,7 @@ a {
 
 .about_me_page {
   background-color: #1c1a19;
-  background-image: url(./group2.png);
+  background-image: url(./img/group2.png);
   background-repeat: no-repeat;
   background-position: right 0 top 100%;
   padding: 25% 24px 50%;
