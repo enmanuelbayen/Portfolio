@@ -99,7 +99,7 @@ a {
 
 .button {
   color: #fff;
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -127,30 +127,29 @@ a {
   color: #5b5957;
 }
 
-#workpage-presentacion{
+#workpage-presentacion {
   justify-content: space-evenly;
   align-items: flex-start;
   flex-direction: column;
-  
 }
 
-#mywork_line{
+#mywork_line {
   width: 310px;
   padding: 20px 7% 40px;
 }
 
 #recent_work {
-  font-family: 'Inter',sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #1C1A19;
+  color: #1c1a19;
   padding: 40px 12% 0;
 }
 
-.work_page{
-  color: #091E42;
+.work_page {
+  color: #091e42;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -159,13 +158,13 @@ a {
   padding: 12px 6%;
 }
 
-.project-section{
+.project-section {
   justify-items: center;
   row-gap: 3%;
   padding-bottom: 20%;
-  }
+}
 
-.deck{
+.deck {
   position: relative;
   flex-direction: column;
   width: min-content;
@@ -173,57 +172,56 @@ a {
 
 .card {
   position: absolute;
-  color:#FFFFFF;
+  color: #fff;
   flex-direction: column;
   gap: 12px;
   padding: 30% 0 0;
 }
 
-.space{
+.space {
   padding: 0 5%;
 }
 
 .work-titles {
-font-family: 'Crete Round', sans-serif;
-font-size: 32px;
-font-weight: 400;
-line-height: 44px;
+  font-family: 'Crete Round', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
 }
 
 .project-explain {
- font-family: 'Inter', sans-serif;
- font-style: normal;
- font-weight: 400;
- font-size: 16px;
- line-height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .code-lenguaje-use {
-  justify-content:flex-start;
+  justify-content: flex-start;
   gap: 12px;
 }
 
-
 .code-lenguaje-box {
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   padding: 10px 12px;
 }
 
 .code-lenguaje-box1 {
-  background: #FFFFFF3D;
+  background: #ffffff3d;
   padding: 10px 12px;
 }
 
-#button-work-page{
+#button-work-page {
   align-self: flex-start;
   margin-bottom: 24px;
 }
 
-.button_project{
- margin-top: 18px;
+.button_project {
+  margin-top: 18px;
 }
 
-.about_me_page{
+.about_me_page {
   background-color: #1c1a19;
   background-image: url(./group2.png);
   background-repeat: no-repeat;
@@ -235,17 +233,17 @@ line-height: 44px;
   gap: 24px;
 }
 
-#aboutme-title{
+#aboutme-title {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
   line-height: 88px;
   letter-spacing: 0.37px;
-  color: #FF6B00;
+  color: #ff6b00;
 }
 
-#aboutme-text{
+#aboutme-text {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -254,41 +252,41 @@ line-height: 44px;
   color: #f4f1f0;
 }
 
-.knowlegde_page{
-background-color: #1C1A19;
-padding-bottom: 100px;
-text-align: center;
+.knowlegde_page {
+  background-color: #1c1a19;
+  padding-bottom: 100px;
+  text-align: center;
 }
 
-.devider-line{
+.devider-line {
   padding-bottom: 80px;
 }
 
-.orange_figure{
+.orange_figure {
   padding-right: 18px;
 }
 
-.skill_mention{
-  font-family: 'Inter';
+.skill_mention {
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #FFFFFF;
+  color: #fff;
   padding: 32px 80px 32px 32px;
 }
 
-.myskills_list{
+.myskills_list {
   flex-direction: column;
   align-items: center;
   gap: 12px;
 }
 
-.skill{
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 43px;
-color: #FFFFFF;
+.skill {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
 }
