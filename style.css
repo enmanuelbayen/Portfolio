@@ -1,8 +1,12 @@
 /*  theme  */
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Meera+Inimai&family=Poppins&family=Roboto&display=swap');
 
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 li {
@@ -23,9 +27,9 @@ a {
   font-family: 'Poppins', sans-serif;
   text-align: left;
   background-color: black;
-  background-image: url("Group.png");
+  background-image: url("./img/Group.png");
   background-repeat: no-repeat;
-  background-position: right 0 top 125%;
+  background-position: right 0 top 114%;
 }
 
 .header {
@@ -47,12 +51,11 @@ a {
 
 .menu-icon {
   display: block;
-  padding-right: 40px;
+  padding-right: 60px;
 }
 
 .landing_page {
-  padding: 20% 5%;
-  display: flex;
+  padding: 10% 7% 26%;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-evenly;
@@ -85,10 +88,8 @@ a {
 }
 
 .icon {
-  display: flex;
   align-items: flex-start;
-  padding: 0 10px;
-  padding-top: 12px;
+  padding: 12px 10px 0;
 }
 
 .social-icons {
@@ -97,9 +98,8 @@ a {
 }
 
 .button {
-  margin: 40px;
   color: #fff;
-  background-color: #f55800;
+  background-color: #ff6b00;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -125,4 +125,166 @@ a {
   cursor: not-allowed;
   background: #f4f1f0;
   color: #5b5957;
+}
+
+#workpage-presentacion {
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+#mywork_line {
+  padding-bottom: 80px;
+  padding-top: 24px;
+}
+
+#recent_work {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #1c1a19;
+}
+
+.work_page {
+  color: #091e42;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  gap: 12px;
+  padding: 33% 6% 0;
+}
+
+.project-section {
+  justify-items: center;
+  row-gap: 3%;
+  padding-bottom: 40%;
+}
+
+.deck {
+  position: relative;
+  flex-direction: column;
+  width: min-content;
+}
+
+.card {
+  position: absolute;
+  color: #fff;
+  flex-direction: column;
+  gap: 12px;
+  padding: 30% 0 0;
+}
+
+.space {
+  padding: 0 5%;
+}
+
+.work-titles {
+  font-family: 'Crete Round', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+.project-explain {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.code-lenguaje-use {
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.code-lenguaje-box {
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
+}
+
+.code-lenguaje-box1 {
+  background: #ffffff3d;
+  padding: 10px 12px;
+}
+
+#button-work-page {
+  align-self: flex-start;
+}
+
+.button_project {
+  margin-top: 18px;
+}
+
+.about_me_page {
+  background-color: #1c1a19;
+  background-image: url(./img/group2.png);
+  background-repeat: no-repeat;
+  background-position: right 0 top 100%;
+  padding: 25% 24px 50%;
+  margin: 150% 0 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+#aboutme-title {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+}
+
+#aboutme-text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f1f0;
+}
+
+.knowledge_page {
+  background-color: #1c1a19;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.devider-line {
+  padding-bottom: 80px;
+}
+
+.orange_figure {
+  padding-right: 18px;
+}
+
+.skill_mention {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  padding: 32px 80px 32px 32px;
+}
+
+.myskills_list {
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.skill {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
 }
