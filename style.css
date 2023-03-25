@@ -224,7 +224,7 @@ line-height: 44px;
 }
 
 .about_me_page{
-  background-color: #1C1A19;
+  /* background-color: #1c1a19; */
   background-image: url(./group2.png);
   background-repeat: no-repeat;
   background-position: right 0 top 100%;
@@ -256,16 +256,20 @@ line-height: 44px;
 
 .knowlegde_page{
 background-color: #1C1A19;
+text-align: center;
 }
 
-.myskills_list{
+.skill_mention{
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  align-items: center;
   color: #FFFFFF;
+}
+
+.myskills_list{
+  align-items: center;
 }
 
 .skill{
