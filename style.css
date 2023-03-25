@@ -55,7 +55,7 @@ a {
 }
 
 .landing_page {
-  padding: 10% 5% 26%;
+  padding: 10% 7% 26%;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-evenly;
@@ -134,19 +134,16 @@ a {
 }
 
 #mywork_line {
-  width: 310px;
-  padding: 20px 7% 40px;
+ padding-bottom: 80px;
 }
 
 #recent_work {
-  display: inline;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
   color: #1c1a19;
-  padding: 4%;
 }
 
 .work_page {
