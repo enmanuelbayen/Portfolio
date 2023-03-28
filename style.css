@@ -291,7 +291,7 @@ a {
 .feedback_title{
   font-family: 'Inter', sans-serif;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 33px;
   line-height: 44px;
   text-align: center;
   color: #172B4D;
@@ -308,19 +308,24 @@ label{
 }
 
 .input_contact{
-  width: 100%;
+  font-style: italic;
+  width: 300px;
   padding: 14px;
   background: transparent;
   border: none;
   border-bottom: 1px solid #DBD8D7;
   margin-bottom: 25px;
+  color: #979493;
 }
 
 textarea{
   background-color: #FBF8F7;
   border: none;
   padding: 14px;
-  width: 100%;
+  width: 300px;
+  height: 95px;
+  border-radius: 0px;
+  color: #3C3A39;
 }
 
 .icon2{
