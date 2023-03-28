@@ -279,6 +279,11 @@ a {
   color: #fff;
 }
 
+.survey-page{
+  flex-direction: column;
+  justify-content: center;
+}
+
 .feedback_title{
   font-family: 'Inter', sans-serif;
   font-weight: 700;
@@ -286,4 +291,19 @@ a {
   line-height: 44px;
   text-align: center;
   color: #172B4D;
+}
+
+form{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+label{
+  cursor: pointer;
+}
+
+input{
+display: none;
 }
