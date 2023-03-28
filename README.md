@@ -144,6 +144,14 @@ Work in progress.
 - Twitter: [@twitterhandle](https://twitter.com/EJbayen)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/enmanuel-bayen-torres-480906128/)
 
+👤 Ignacio Fino
+- GitHub: [@Alejuda](https://github.com/Alejuda)
+
+
+👤 Juan Guerra
+- GitHub: [@JuanDiegoGuerra](https://github.com/JuanDiegoGuerra)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
