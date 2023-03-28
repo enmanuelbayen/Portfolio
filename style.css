@@ -338,3 +338,17 @@ textarea{
 .survey-list {
   margin-bottom: 25px;
 }
+
+.bottom-bar {
+  margin: 0 auto;
+  background-color: #0D151E;
+  height: 5px;
+  width: 134px;
+  border: 1px solid #0d151e;
+  border-radius: 10px;
+}
+
+#black-line {
+  margin-top: 47px;
+  margin-bottom: 5px;
+}
