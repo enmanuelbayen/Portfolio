@@ -278,3 +278,11 @@ a {
   line-height: 43px;
   color: #fff;
 }
+
+.feedback_title{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+}
