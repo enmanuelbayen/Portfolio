@@ -282,6 +282,7 @@ a {
 .survey-page{
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 5%;
 }
 
 .feedback_title{
@@ -312,4 +313,12 @@ label{
 textarea{
   background-color: #FBF8F7;
   border: none;
+}
+
+.icon2{
+  justify-content: center;
+}
+
+.footer-section {
+  border-top: 1px #DFE1E6 solid;
 }
