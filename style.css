@@ -293,9 +293,8 @@ a {
   color: #172B4D;
 }
 
-form{
+.form_contact{
   margin: 0 auto;
-  display: flex;
   flex-direction: column;
   align-content: center;
 }
@@ -304,6 +303,13 @@ label{
   cursor: pointer;
 }
 
-input{
-display: none;
+.input_contact{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #DBD8D7;
+}
+
+textarea{
+  background-color: #FBF8F7;
+  border: none;
 }
