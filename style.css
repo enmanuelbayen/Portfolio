@@ -103,6 +103,7 @@ a {
   line-height: 24px;
   letter-spacing: 0.03em;
   padding: 12px;
+  border: none;
 }
 
 .button:hover {
@@ -277,4 +278,79 @@ a {
   font-size: 22px;
   line-height: 43px;
   color: #fff;
+}
+
+.survey-page {
+  flex-direction: column;
+  justify-content: center;
+  padding: 64px 24px;
+  gap: 100px;
+
+  /* margin-bottom: 5%; */
+}
+
+.feedback_title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.form_contact {
+  width: 100%;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+label {
+  cursor: pointer;
+}
+
+.input_contact {
+  font-style: italic;
+  width: 300px;
+  padding: 14px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  margin-bottom: 25px;
+  color: #979493;
+}
+
+textarea {
+  background-color: #fbf8f7;
+  border: none;
+  padding: 14px;
+  width: 300px;
+  height: 95px;
+  border-radius: 0;
+  color: #3c3a39;
+}
+
+.icon2 {
+  justify-content: center;
+}
+
+.footer-section {
+  border-top: 1px #dfe1e6 solid;
+}
+
+#submit_button {
+  margin: 0 auto;
+}
+
+.bottom-bar {
+  margin: 0 auto;
+  background-color: #0d151e;
+  height: 5px;
+  width: 134px;
+  border: 1px solid #0d151e;
+  border-radius: 10px;
+}
+
+#black-line {
+  margin-top: 47px;
+  margin-bottom: 5px;
 }
