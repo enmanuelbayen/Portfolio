@@ -118,9 +118,11 @@ a {
   color: #5b5957;
 }
 
-#mywork_line {
-  padding-bottom: 80px;
-  padding-top: 24px;
+.devider-line {
+  height: 1px;
+  width: 100%;
+  margin: 3% 0 80px;
+  background-color: #0d151e;
 }
 
 #recent_work {
@@ -233,10 +235,11 @@ width: 100%;
   gap: 24px;
 }
 
-.devider-line {
-  border: 1px solid #fff;
+.devider-line2 {
+  height: 1px;
   width: 80%;
   margin: 3% 0 80px;
+  background-color: #ffffffa5;
 }
 
 .orange_figure {
@@ -270,6 +273,7 @@ width: 100%;
   flex-direction: column;
   padding: 64px 24px;
   gap: 100px;
+  align-items: center;
 }
 
 .feedback_title {
@@ -279,6 +283,7 @@ width: 100%;
   line-height: 44px;
   text-align: center;
   color: #172b4d;
+  width: 327px;
 }
 
 .form_contact {
