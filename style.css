@@ -24,40 +24,41 @@ a {
 }
 
 .main_page {
+  color: #fff;
   font-family: 'Poppins', sans-serif;
   text-align: left;
   background-color: black;
   background-image: url("./img/Group.png");
   background-repeat: no-repeat;
-  background-position: right 0 top 114%;
+  background-position: right 0 top 110%;
 }
 
 .header {
   background: #3c3a39;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
-  padding: 20px 12px 10px;
+  height: 72px;
+  column-gap: 50%;
 }
 
 .logo {
-  color: white;
+  color: #fff;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
 }
 
-.menu-icon {
-  display: block;
-  padding-right: 60px;
+.landing_page {
+  flex-direction: column;
+  padding: 31% 4%;
+  row-gap: 12px;
 }
 
-.landing_page {
-  padding: 10% 7% 26%;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-evenly;
+.bio{
+  width: 327px;
+  height: 1%;
 }
 
 .title {
@@ -67,7 +68,6 @@ a {
   line-height: 64px;
   letter-spacing: 0.37px;
   color: #ff6b00;
-  padding-top: 30px;
 }
 
 .sub-title {
@@ -76,17 +76,6 @@ a {
   font-weight: 700;
   line-height: 32px;
   color: #fff5e1;
-  padding-top: 12px;
-}
-
-.bio {
-  color: #fff;
-  padding-top: 12px;
-}
-
-.icon {
-  align-items: flex-start;
-  padding: 12px 10px 0;
 }
 
 .social-icons {
@@ -285,8 +274,6 @@ a {
   justify-content: center;
   padding: 64px 24px;
   gap: 100px;
-
-  /* margin-bottom: 5%; */
 }
 
 .feedback_title {
