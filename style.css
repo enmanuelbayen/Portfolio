@@ -301,7 +301,7 @@ a {
 .form_contact {
   width: 100%;
   flex-direction: column;
-  align-content: center;
+  row-gap: 15px;
 }
 
 label {
@@ -339,10 +339,6 @@ textarea {
 
 #submit_button {
   margin: 0 auto;
-}
-
-.survey-list {
-  margin-bottom: 25px;
 }
 
 .bottom-bar {
