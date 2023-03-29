@@ -13,6 +13,11 @@ li {
   list-style: none;
 }
 
+.space {
+  padding: 0 5%;
+}
+
+
 * {
   padding: 0;
   margin: 0;
@@ -133,32 +138,23 @@ a {
   align-items: center;
   text-align: left;
   gap: 12px;
-  padding: 33% 6% 0;
 }
 
 .project-section {
   justify-items: center;
-  row-gap: 12px;
-}
-
-.deck {
-  position: relative;
-  flex-direction: column;
-  width: min-content;
+  row-gap: 24px;
+  margin: 0 24px;
+  padding: 120px 0;
 }
 
 .card {
   background-image: url("./img/photofondo.png");
   background-position: center;
-  position: absolute;
+  background-size: cover;
   color: #fff;
   flex-direction: column;
-  align-content: center;
-  height: 1px;
-}
-
-.space {
-  padding: 0 5%;
+  padding-top: 70px;
+  row-gap: 12px;
 }
 
 .work-titles {
@@ -177,6 +173,7 @@ a {
 }
 
 .code-lenguaje-use {
+  align-self: flex-start;
   gap: 12px;
   margin-bottom: 12px;
 }
@@ -193,6 +190,10 @@ a {
 
 #button-work-page {
   align-self: flex-start;
+}
+
+.button_project{
+width: 100%;
 }
 
 .about_me_page {
