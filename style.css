@@ -113,12 +113,6 @@ a {
   color: #5b5957;
 }
 
-#workpage-presentacion {
-  justify-content: space-evenly;
-  align-items: flex-start;
-  flex-direction: column;
-}
-
 #mywork_line {
   padding-bottom: 80px;
   padding-top: 24px;
@@ -136,7 +130,7 @@ a {
   color: #091e42;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   text-align: left;
   gap: 12px;
   padding: 33% 6% 0;
@@ -144,8 +138,7 @@ a {
 
 .project-section {
   justify-items: center;
-  row-gap: 3%;
-  padding-bottom: 40%;
+  row-gap: 12px;
 }
 
 .deck {
@@ -155,11 +148,13 @@ a {
 }
 
 .card {
+  background-image: url("./img/photofondo.png");
+  background-position: center;
   position: absolute;
   color: #fff;
   flex-direction: column;
-  gap: 12px;
-  padding: 30% 0 0;
+  align-content: center;
+  height: 1px;
 }
 
 .space {
@@ -174,15 +169,16 @@ a {
 }
 
 .project-explain {
+  width: 314px;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 24px;
 }
 
 .code-lenguaje-use {
-  justify-content: flex-start;
   gap: 12px;
+  margin-bottom: 12px;
 }
 
 .code-lenguaje-box {
@@ -199,17 +195,12 @@ a {
   align-self: flex-start;
 }
 
-.button_project {
-  margin-top: 18px;
-}
-
 .about_me_page {
   background-color: #1c1a19;
   background-image: url(./img/group2.png);
   background-repeat: no-repeat;
   background-position: right 0 top 100%;
   padding: 25% 24px 50%;
-  margin: 150% 0 0;
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
@@ -230,6 +221,7 @@ a {
   font-size: 16px;
   line-height: 24px;
   color: #f4f1f0;
+  width: 327px;
 }
 
 .knowledge_page {
