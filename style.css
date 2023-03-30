@@ -249,9 +249,13 @@ width: 100%;
   padding-right: 18px;
 }
 
+.show_case{
+  flex-direction: column;
+  gap: 20px;
+}
+
 .Show_case_skills{
   flex-direction: column;
-  justify-content: center;
  align-items: center;
  gap: 26px;
 }
@@ -346,13 +350,16 @@ textarea {
 
 @media screen and (min-width: 768px) {
 
-  .resume{
+
+
+.resume{
 flex-direction: row;
   }
 
-.Show_case{
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1.5vw;
+.show_case{
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 0;
 }
 
 .survey-page{
@@ -379,6 +386,10 @@ width: 47vw;
 textarea{
 width: 100%;
 height: 4vw;
+}
+
+#submit-bttn{
+  align-self: flex-start;
 }
 
 }
