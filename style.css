@@ -28,6 +28,10 @@ a {
   cursor: pointer;
 }
 
+.navbar-desktop{
+  display: none;
+}
+
 .main_page {
   color: #fff;
   font-family: 'Poppins', sans-serif;
@@ -207,10 +211,18 @@ width: 100%;
   background-image: url(./img/group2.png);
   background-repeat: no-repeat;
   background-position: right 0 top 100%;
-  padding: 25% 24px 50%;
+  padding: 30% 6% 50%;
+}
+
+.aboutme_box{
+ 
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
+}
+
+.aboutme_img{
+  display: none;
 }
 
 #aboutme-title {
@@ -350,11 +362,53 @@ textarea {
 
 @media screen and (min-width: 768px) {
 
+.navbar-desktop{
+  display: block;
+}
 
+.navbar{
+  display: none;
+}
+
+.list-navbar{
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.navbar-menu{
+  flex-direction: row;
+  justify-content: flex-start;
+}
 
 .resume{
 flex-direction: row;
-  }
+}
+
+.about_me_page{
+  background-image: url(./img/aboutme-desktop-img.png);
+  flex-direction: row;
+  justify-content: flex-start;
+  background-size: 45vw;
+  background-position: 55vw;
+  padding: 9vw 10vw;
+}
+
+.aboutme_box{
+  align-self: center;
+}
+
+/* .aboutme_img{
+  display: block;
+  width: 66vw;
+  height: 30vw;
+} */
+
+#aboutme-text{
+  width: 33vw;
+  line-height: 32px;
+}
 
 .show_case{
   flex-direction: row;
