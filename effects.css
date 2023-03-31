@@ -1,4 +1,4 @@
-/* -------------------ANIMATIONS------------------- */
+/* -------------------TRANSITIONS------------------- */
 .social-icons{
     transition: transform 0.2s;
 }
@@ -16,7 +16,19 @@
     cursor:default;
 }
 
-/* -------------------TRANSITIONS------------------- */
+.list-navbar {
+    transition: transform 1s;
+}
+
+.list-navbar:hover {
+    transform: scale(1.5);
+    margin: 0;
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.24);
+    background-color: rgba(255, 255, 255, 0.24);
+    border-radius: 35%;
+}
+
+/* -------------------ANIMATIONS------------------- */
 
 .title {
     animation: apear-from-right 1.5s ease-in-out;
@@ -57,4 +69,21 @@
         opacity: 1;
     }
     
+}
+
+.animated_icon:hover {
+    animation-duration: 1s;
+    animation-name: threesixtyflip;
+    animation-iteration-count: 1;
+    animation-direction: linear;
+}
+
+@keyframes threesixtyflip {
+    from {
+        rotate: 0deg;
+    }
+
+    to {
+        rotate: 359deg;
+    }    
 }
