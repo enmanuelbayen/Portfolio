@@ -31,10 +31,6 @@ a {
   display: none;
 }
 
-.navbar {
-  padding-left: 100%;
-}
-
 .header {
   color: #fff;
   font-family: 'Poppins', sans-serif;
@@ -44,6 +40,7 @@ a {
   align-items: center;
   width: 100%;
   height: 72px;
+  gap: 46%;
 }
 
 .logo {
@@ -52,12 +49,6 @@ a {
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
-  padding-right: 9vw;
-}
-
-.nav_div_box {
-  padding: 0 6vw;
-  width: 15vw;
 }
 
 .landing_page {
@@ -133,7 +124,7 @@ a {
 .project-section {
   flex-direction: column;
   row-gap: 22px;
-  padding: 120px 80px;
+  padding: 120px 8vw;
 }
 
 .work-presentation {
@@ -277,7 +268,7 @@ a {
 
 .devider-line2 {
   height: 1px;
-  width: 80%;
+  width: 100%;
   margin: 3% auto 80px;
   background-color: #ffffffa5;
 }
@@ -322,7 +313,7 @@ a {
 
 .survey-page {
   flex-direction: column;
-  padding: 8% 5% 13%;
+  padding: 8% 8vw 13%;
   gap: 100px 0;
 }
 
@@ -383,6 +374,10 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
+  .header {
+    justify-content: space-evenly;
+  }
+
   .navbar-desktop {
     display: block;
   }
@@ -400,7 +395,7 @@ textarea {
   .navbar-menu {
     flex-direction: row;
     justify-content: flex-start;
-    gap: 3vw;
+    gap: 32px;
   }
 
   .landing_page {
@@ -416,7 +411,7 @@ textarea {
   .main-page-text {
     width: 36vw;
     justify-content: center;
-    margin-left: 10vw;
+    margin-left: 8vw;
   }
 
   .icon {
@@ -464,7 +459,7 @@ textarea {
     justify-content: flex-start;
     background-size: 45vw;
     background-position: 55vw;
-    padding: 9vw 10vw;
+    padding: 9vw 8vw;
   }
 
   .aboutme_box {
@@ -478,13 +473,25 @@ textarea {
 
   .show_case {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 0;
+  }
+
+  .knowledge_page {
+    padding: 0 8vw 10vw;
+  }
+
+  .Show_case_skills {
+    align-items: flex-start;
+  }
+
+  .myskills_list {
+    align-items: flex-start;
   }
 
   .survey-page {
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 0 3vw;
   }
 
@@ -526,5 +533,17 @@ textarea {
 
   .project-img2 {
     background-image: url(./img/project_img2.png);
+  }
+
+  #submit-bttn {
+    align-self: flex-start;
+  }
+
+  .align_left {
+    padding-left: 2vw;
+  }
+
+  .align_right {
+    padding-right: 2vw;
   }
 }
