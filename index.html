@@ -9,20 +9,31 @@
 </head>
 
 <body>
- <section class="main_page">
-  <header class="header flex">
+ <header class="header flex">
      
-     <a href="#" class="home-logo"><h4 class="logo">My Logo</h4></a>
-
+    <a href="#" class="home-logo align_right"><h4 class="logo">My Logo</h4></a>
+    <div class="nav_div_box align_left">
      <nav class="navbar"><a href="#" class="menu-icon"><img src="./img/side-menu.png" alt="side-menu"></a></nav>
-  </header>
-    
-  <main class="landing_page flex">
 
+     <nav class="navbar-desktop">
+      <ul class="navbar-menu flex">
+        <li class="list-navbar">Portfolio</li>
+        <li class="list-navbar">About</li>
+        <li class="list-navbar">Contact</li>
+        <li><img src="./img/msg_icon.png" alt="" class="msg-icon"></li>
+      </ul>
+     </nav>
+    </div>
+ </header>
+
+  <section class="landing_page flex">
+
+   <div class="main-page-text flex">
      <h1 class="title">Welcome! I'm Enmanuel</h1>
-      <h2 class="sub-title">I'm a Software Developer</h2>
-      <p class="bio">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+     <h2 class="sub-title">I'm a Software Developer</h2>
+     <p class="bio">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
         don’t hesitate to contact me.</p>
+   </div>
 
     <ul class="icon flex">
         <li><a href="https://github.com/enmanuelbayen?tab=repositories"><img id="github" class="social-icons" src="./img/github.png" alt="GitHub-icon"></a></li>
@@ -31,205 +42,210 @@
         <li><a href="https://twitter.com/EJbayen"><img id="twitter" class="social-icons" src="./img/twitter.png" alt="Twitter-icon"></a></li>
         <li><a href="#"><img id="medium" class="social-icons" src="./img/capM.png" alt="Medium-icon"></a></li>
     </ul>
-  </main>
-</section>
+  </section>
 
- <section class="project-section grid">
+ <section class="project-section flex">
     
-    <div class="work_page flex">
-        <h2 id="recent_work">My Recent Works</h2>
-          <img src="./img/lineVector.png" alt="vector line below title" id="mywork_line">
-          <img src="./img/work1.png" alt="Multi-post project img" id="workimg">
+
+     <div class="devider-box flex">
+      <h2 id="recent_work">My Recent Works</h2>
+          
+      <span class="devider-line"></span>
+     </div> 
+
+     <div class="work-presentation grid">
+
+        <img src="./img/work1.png" alt="Multi-post project img" id="workimg">
         
-         <h3 class="work-titles">Multi-Post Stories</h3>
-         <p class="project-explain">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+        <div class="work-description flex">
+          <h3 class="work-titles">Multi-Post Stories</h3>
+          <p class="project-explain">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
          
-         <ul class="code-lenguaje-use flex">
+          <ul class="code-lenguaje-use flex">
             <li class="code-lenguaje-box">CSS</li>
             <li class="code-lenguaje-box">HTML</li>
             <li class="code-lenguaje-box">Bootstrap</li>
             <li class="code-lenguaje-box">Ruby</li>
-         </ul>
+          </ul>
          
-         <button class="button" id="button-work-page">See project</button>
+          <button class="button" id="button-work-page">See project</button>
+      </div>
+     </div>
+
+  <section class="deck grid">
+
+    <div class="card flex bttn-project project-img">
+     <div class="card-text flex hide">
+      <h3 class="work-titles space">Profesional Art Printing Data</h3>
+      <p class="project-explain space width">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+     
+      <ul class="code-lenguaje-use flex space">
+        <li class="code-lenguaje-box1">HTML</li>
+        <li class="code-lenguaje-box1">Bootstrap</li>
+        <li class="code-lenguaje-box1">Ruby</li>
+      </ul>
+    </div>
     
-    </div>
-
-    <div class="deck flex">
-        <img src="./img/photofondo.png" alt="project background" class="imgfondo">
-     <div class="card flex">
-
-      <h3 class="work-titles space">Profesional Art Printing Data</h3>
-      <p class="project-explain space">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-     
-      <ul class="code-lenguaje-use flex space">
-        <li class="code-lenguaje-box1">HTML</li>
-        <li class="code-lenguaje-box1">Bootstrap</li>
-        <li class="code-lenguaje-box1">Ruby</li>
-      </ul>
-     
       <button class="button button_project" >See project</button>
-     </div>
+     
     </div>
+    
 
-    <div class="deck flex">
-        <img src="./img/photofondo.png" alt="project background" class="imgfondo">
+    <div class="card flex project-img1">
+      <div class="card-text flex">
+       <h3 class="work-titles space">Profesional Art Printing Data</h3>
+       <p class="project-explain space width">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+      
+       <ul class="code-lenguaje-use flex space">
+         <li class="code-lenguaje-box1">HTML</li>
+         <li class="code-lenguaje-box1">Bootstrap</li>
+         <li class="code-lenguaje-box1">Ruby</li>
+       </ul>
+     </div>
+     
+       <button class="button button_project hide" >See project</button>
+      
+     </div>
+
+     <div class="card flex project-img2">
+      <div class="card-text flex">
+       <h3 class="work-titles space">Profesional Art Printing Data</h3>
+       <p class="project-explain space width">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+      
+       <ul class="code-lenguaje-use flex space">
+         <li class="code-lenguaje-box1">HTML</li>
+         <li class="code-lenguaje-box1">Bootstrap</li>
+         <li class="code-lenguaje-box1">Ruby</li>
+       </ul>
+     </div>
+     
+       <button class="button button_project hide" >See project</button>
+      
+     </div>
+
      <div class="card flex">
-
-      <h3 class="work-titles space">Profesional Art Printing Data</h3>
-      <p class="project-explain space">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-     
-      <ul class="code-lenguaje-use flex space">
-        <li class="code-lenguaje-box1">HTML</li>
-        <li class="code-lenguaje-box1">Bootstrap</li>
-        <li class="code-lenguaje-box1">Ruby</li>
-      </ul>
-     
-      <button class="button button_project" >See project</button>
+      <div class="card-text flex">
+       <h3 class="work-titles space">Profesional Art Printing Data</h3>
+       <p class="project-explain space width">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+      
+       <ul class="code-lenguaje-use flex space">
+         <li class="code-lenguaje-box1">HTML</li>
+         <li class="code-lenguaje-box1">Bootstrap</li>
+         <li class="code-lenguaje-box1">Ruby</li>
+       </ul>
      </div>
-    </div>
      
-    <div class="deck flex">
-        <img src="./img/photofondo.png" alt="project background" class="imgfondo">
-     <div class="card flex">
-
-      <h3 class="work-titles space">Profesional Art Printing Data</h3>
-      <p class="project-explain space">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-     
-      <ul class="code-lenguaje-use flex space">
-        <li class="code-lenguaje-box1">HTML</li>
-        <li class="code-lenguaje-box1">Bootstrap</li>
-        <li class="code-lenguaje-box1">Ruby</li>
-      </ul>
-     
-      <button class="button button_project" >See project</button>
+       <button class="button button_project hide" >See project</button>
+      
      </div>
-    </div>
 
-    <div class="deck flex">
-        <img src="./img/photofondo.png" alt="project background" class="imgfondo">
-     <div class="card flex">
-
-      <h3 class="work-titles space">Profesional Art Printing Data</h3>
-      <p class="project-explain space">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-     
-      <ul class="code-lenguaje-use flex space">
-        <li class="code-lenguaje-box1">HTML</li>
-        <li class="code-lenguaje-box1">Bootstrap</li>
-        <li class="code-lenguaje-box1">Ruby</li>
-      </ul>
-     
-      <button class="button button_project" >See project</button>
+     <div class="card flex project-img1">
+      <div class="card-text flex">
+       <h3 class="work-titles space">Profesional Art Printing Data</h3>
+       <p class="project-explain space width">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+      
+       <ul class="code-lenguaje-use flex space">
+         <li class="code-lenguaje-box1">HTML</li>
+         <li class="code-lenguaje-box1">Bootstrap</li>
+         <li class="code-lenguaje-box1">Ruby</li>
+       </ul>
      </div>
-    </div>
-
-    <div class="deck flex">
-        <img src="./img/photofondo.png" alt="project background" class="imgfondo">
-     <div class="card flex">
-
-      <h3 class="work-titles space">Profesional Art Printing Data</h3>
-      <p class="project-explain space">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
      
-      <ul class="code-lenguaje-use flex space">
-        <li class="code-lenguaje-box1">HTML</li>
-        <li class="code-lenguaje-box1">Bootstrap</li>
-        <li class="code-lenguaje-box1">Ruby</li>
-      </ul>
-     
-      <button class="button button_project" >See project</button>
+       <button class="button button_project hide" >See project</button>
+      
      </div>
-    </div>
 
-    <div class="deck flex">
-        <img src="./img/photofondo.png" alt="project background" class="imgfondo">
-     <div class="card flex">
-
-      <h3 class="work-titles space">Profesional Art Printing Data</h3>
-      <p class="project-explain space">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-     
-      <ul class="code-lenguaje-use flex space">
-        <li class="code-lenguaje-box1">HTML</li>
-        <li class="code-lenguaje-box1">Bootstrap</li>
-        <li class="code-lenguaje-box1">Ruby</li>
-      </ul>
-     
-      <button class="button button_project" >See project</button>
+     <div class="card flex project-img2">
+      <div class="card-text flex">
+       <h3 class="work-titles space">Profesional Art Printing Data</h3>
+       <p class="project-explain space width">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+      
+       <ul class="code-lenguaje-use flex space">
+         <li class="code-lenguaje-box1">HTML</li>
+         <li class="code-lenguaje-box1">Bootstrap</li>
+         <li class="code-lenguaje-box1">Ruby</li>
+       </ul>
      </div>
-    </div>
-</section>
+     
+       <button class="button button_project hide" >See project</button>
+      
+     </div>
+  </section>  
+ </section>
 
  <section class="about_me_page flex">
 
-     <h4 id="aboutme-title">About me</h1>
+  <div class="aboutme_box flex">
+     <h4 id="aboutme-title">About me</h4>
      <p id="aboutme-text">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+     <button class="button">Get my resume</button>
+  </div>
+  
+ </section>
 
-      <button class="button">Get my resume</button>
+ <section class="knowledge_page grid">
+  <div class="devider-line2"></div>
+  
+  <div class="show_case flex">
+   
+    <div class="Show_case_skills flex"> 
+     <h5 class="skill_mention"><img class="orange_figure" src="./img/diamond-orange.png" alt="orange figure">Language</h5>
+     <ul class="myskills_list flex">
+      <li class="skill">JavaScript</li>
+      <li class="skill">Ruby</li>
+      <li class="skill">HTML</li>
+      <li class="skill">CSS</li>
+     </ul>
+   </div>
 
-     </section>
+    <div class="Show_case_skills flex">
+     <h5 class="skill_mention"><img class="orange_figure" src="./img/square-orange.png" alt="orange figure">Frameworks</h5>
+     <ul class="myskills_list flex">
+      <li class="skill">React.js</li>
+      <li class="skill">Ruby on Rails</li>
+      <li class="skill">RSpec</li>
+      <li class="skill">Capybara</li>
+     </ul>
+   </div>
 
- <section class="knowledge_page">
-  <img src="./img/Devider.png" alt="division line" class="devider-line">
+    <div class="Show_case_skills flex">
+     <h5 class="skill_mention"><img class="orange_figure" src="./img/circle-orange.png" alt="orange figure">Skills</h5>
+     <ul class="myskills_list flex">
+      <li class="skill">Database Managment</li>
+      <li class="skill">Version Control</li>
+      <li class="skill">CLI</li>
+      <li class="skill">API Design</li>
+      <li class="skill">Web Development</li>
+     </ul>
+    </div> 
+  </div>
+ </section>
 
- <h5 class="skill_mention"><img class="orange_figure" src="./img/diamond-orange.png" alt="orange figure">Language</h5>
-  <ul class="myskills_list flex">
-    <li class="skill">JavaScript</li>
-    <li class="skill">Ruby</li>
-    <li class="skill">HTML</li>
-    <li class="skill">CSS</li>
-  </ul>
-
-  <h5 class="skill_mention"><img class="orange_figure" src="./img/square-orange.png" alt="orange figure">Frameworks</h5>
-  <ul class="myskills_list flex">
-    <li class="skill">React.js</li>
-    <li class="skill">Ruby on Rails</li>
-    <li class="skill">RSpec</li>
-    <li class="skill">Capybara</li>
-  </ul>
-
-  <h5 class="skill_mention"><img class="orange_figure" src="./img/circle-orange.png" alt="orange figure">Skills</h5>
-  <ul class="myskills_list flex">
-    <li class="skill">Database Managment</li>
-    <li class="skill">Version Control</li>
-    <li class="skill">CLI</li>
-    <li class="skill">API Design</li>
-    <li class="skill">Web Development</li>
-  </ul>
-
-</section>
-
-<section class="survey-page flex">
+ <section class="survey-page flex">
 
   <h6 class="feedback_title">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h6>
 
  <form class="form_contact flex" action="https://formspree.io/f/mdovwnqn" method="post">
 
-       <label>
+       
         <input class="input_contact" type="text" name="user_name" maxlength="30" placeholder="Full name" required>
-       </label>
-    
-       <label>
         <input class="input_contact" type="email" name="user_email" placeholder="Email address" required>
-       </label>
-
-      <label>
        <textarea name="user_message" maxlength="500" placeholder="Write me something..." required></textarea>
-      </label>
 
-  <input class="button" value="Get in touch" id="submit_button" type="submit">
+  <input class="button"  id="submit-bttn" value="Get in touch" type="submit">
  </form>
 
-</section>
+ </section>
 
-<section class="footer-section">
-  <ul class="icon icon2 flex">
+ <section class="footer-section">
+  <ul class="icon2 flex">
     <li><a href="https://github.com/enmanuelbayen?tab=repositories"><img id="github" class="social-icons" src="./img/github-survey.png" alt="GitHub-icon"></a></li>
     <li><a href="https://www.linkedin.com/in/enmanuel-bayen-torres-480906128/"><img id="linkedin" class="social-icons" src="./img/linkedin-survey.png" alt="Linkedin-icon"></a></li>
     <li><a href="#"><img id="hand" class="social-icons" src="./img/hand-survey.png" alt="hand-icon"></a></li>
     <li><a href="https://twitter.com/EJbayen"><img id="twitter" class="social-icons" src="./img/twitter-survey.png" alt="Twitter-icon"></a></li>
     <li><a href="#"><img id="medium" class="social-icons" src="./img/M-survey.png" alt="Medium-icon"></a></li>
   </ul>
-  <hr class="bottom-bar" id="black-line">
-</section>
+ </section>
 
 </body>
 </html>
