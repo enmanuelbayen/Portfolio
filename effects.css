@@ -1,0 +1,90 @@
+/* -------------------TRANSITIONS------------------- */
+.social-icons {
+  transition: transform 0.2s;
+}
+
+.social-icons:hover {
+  transform: scale(1.2);
+}
+
+.skill {
+  transition: all 0.3s;
+}
+
+.skill:hover {
+  transform: skew(-20deg);
+  cursor: default;
+}
+
+.list-navbar {
+  transition: transform 1s;
+}
+
+.list-navbar:hover {
+  transform: scale(1.5);
+  margin: 0;
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.24);
+  background-color: rgba(255, 255, 255, 0.24);
+  border-radius: 35%;
+}
+
+/* -------------------ANIMATIONS------------------- */
+
+.title {
+  animation: apear-from-right 1.5s ease-in-out;
+}
+
+.sub-title {
+  opacity: 0;
+  animation: apear-from-right 1.5s ease-in-out;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes apear-from-right {
+  from {
+    transform: translateX(500px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.bio {
+  opacity: 0;
+  animation: apear-from-bottom 1.5s ease-in-out;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes apear-from-bottom {
+  from {
+    transform: translateY(500px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animated_icon:hover {
+  animation-duration: 1s;
+  animation-name: threesixtyflip;
+  animation-iteration-count: 1;
+  animation-direction: linear;
+}
+
+@keyframes threesixtyflip {
+  from {
+    rotate: 0deg;
+  }
+
+  to {
+    rotate: 359deg;
+  }
+}

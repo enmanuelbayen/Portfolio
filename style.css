@@ -101,6 +101,7 @@ a {
   letter-spacing: 0.03em;
   padding: 12px;
   border: none;
+  transition: background-color 1s;
 }
 
 .button:hover {
@@ -176,6 +177,11 @@ a {
   justify-content: end;
   height: 435px;
   cursor: pointer;
+  transition: 1s;
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
 
 .card-text {
