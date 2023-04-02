@@ -74,7 +74,7 @@ Will have future changes in the next days!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Checkout my page [here!](https://enmanuelbayen.github.io/Portfolio/)  
+<p> Checkout my page <a href="https://enmanuelbayen.github.io/Portfolio/" target="_blank"> here!</a> </p>  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
