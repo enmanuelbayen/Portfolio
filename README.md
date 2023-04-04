@@ -151,6 +151,12 @@ Work in progress.
 👤 Juan Guerra
 - GitHub: [@JuanDiegoGuerra](https://github.com/JuanDiegoGuerra)
 
+👤 **Gabriel Rozas**
+
+- GitHub: [@EmiLoKiJu](https://github.com/EmiLoKiJu)
+- Twitter: [@GabrielRozas12](https://twitter.com/GabrielRozas12)
+- LinkedIn: [grozas](https://www.linkedin.com/in/grozas/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
