@@ -42,6 +42,7 @@ Will have future changes in the next days!
 # 📖 Portfolio <a name="about-project"></a>
 
 > An introduction to myself and my start on this new adventure studying at Microverse. I create this portfolio using HTML and CSS.
+> You can watch this video of me commenting on my first advances in creating this portfolio and how I felt in the process. [Loom video](https://www.loom.com/share/8a4576b28c8e43ef9d3f74f1874ce556)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -138,17 +139,17 @@ Work in progress.
 
 > Mention all of the collaborators of this project.
 
-👤 Enmanuel Bayen
+👤 **Enmanuel Bayen**
 
-- GitHub: [@githubhandle](https://github.com/enmanuelbayen)
-- Twitter: [@twitterhandle](https://twitter.com/EJbayen)
+- GitHub: [@enmanuelbayen](https://github.com/enmanuelbayen)
+- Twitter: [@EJbayen](https://twitter.com/EJbayen)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/enmanuel-bayen-torres-480906128/)
 
-👤 Ignacio Fino
+👤 **Ignacio Fino**
 - GitHub: [@Alejuda](https://github.com/Alejuda)
 
 
-👤 Juan Guerra
+👤 **Juan Guerra**
 - GitHub: [@JuanDiegoGuerra](https://github.com/JuanDiegoGuerra)
 
 👤 **Gabriel Rozas**
