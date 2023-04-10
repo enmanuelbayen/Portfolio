@@ -3,7 +3,6 @@
   display: none;
   position: fixed;
   background-color: #3c3a39;
-  color: #fff5e1;
   top: 0;
   left: 0;
   width: 100%;
@@ -20,22 +19,20 @@
 .x-remove {
   position: absolute;
   background: transparent;
-  color: #67798e;
+  color: #6F6C6B;
   cursor: pointer;
   border: none;
   top: 38px;
   right: 38px;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 44px;
 }
 
 .menu-js-links {
-  margin-top: 85px;
+  margin-top: 100px;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  text-align: left;
   gap: 1.5rem;
 }
 
@@ -44,9 +41,9 @@
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0;
   text-align: left;
-  border: none;
   border-bottom: 1px solid #6f6c6b;
+  padding-bottom: 5px;
+  padding-left: 20px;
   width: 80%;
 }
