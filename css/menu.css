@@ -1,4 +1,4 @@
-/* 
+
 
 .contenedor{
     display: none;
@@ -26,10 +26,14 @@
     border: none;
     top: 20vw;
     right: 20vw;
+    font-weight: 500;
+    font-size: large;
+    line-height: 44px;
 }
 
 .menu-js-links{
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: left;
     gap: 3vw;
@@ -45,4 +49,4 @@
     border: none;
     border-bottom: 1px solid #6F6C6B;
     width: 80%;
-} */
+}
