@@ -80,7 +80,7 @@ const projectBttn = document.getElementById('project-card1');
 
 projectBttn.addEventListener('click', () => {
   const popUp = document.createElement('div');
-  popUp.className('popUp-container');
+  popUp.className = 'popUp-container';
   popUp.innerHTML = `
   <div class="project-popup-card">
   <div class="header-popup-card">
@@ -108,8 +108,8 @@ body.appendchild(popUp);
 const close = document.querySelectorAll('xBttn');
 close.addEventListener('click', () => {
   body.removechild(popUp);
-})
-})
+});
+});
 
 
 
