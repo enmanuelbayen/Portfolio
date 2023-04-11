@@ -34,7 +34,7 @@ Will have future changes in the next days!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 
@@ -63,15 +63,11 @@ Will have future changes in the next days!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 1 Add HTML <br>
 2 Add CSS<br>
 3 add linters<br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -137,8 +133,6 @@ Work in progress.
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Enmanuel Bayen**
 
 - GitHub: [@enmanuelbayen](https://github.com/enmanuelbayen)
@@ -164,8 +158,6 @@ Work in progress.
 
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] More designs and styles!
 - [ ] Better funcionality.

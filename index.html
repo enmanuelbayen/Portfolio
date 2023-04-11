@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="effects.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/menu.css">
     <title>Enmanuel Bayen - Portfolio - Home page</title>
 </head>
 
@@ -14,16 +14,29 @@
      
     <a href="#" class="home-logo align_right"><h4 class="logo">My Logo</h4></a>
     <div class="nav_div_box align_left">
-     <nav class="navbar"><a href="#" class="menu-icon"><img src="./img/side-menu.png" alt="side-menu"></a></nav>
+     <nav class="navbar"><a href="#menu" class="menu-icon" id="menu-icon"><img src="./img/side-menu.png" alt="side-menu"></a></nav>
 
      <nav class="navbar-desktop">
       <ul class="navbar-menu flex">
-        <li class="list-navbar" tabindex="1">Portfolio</li>
-        <li class="list-navbar" tabindex="1">About</li>
-        <li class="list-navbar" tabindex="1">Contact</li>
-        <li class="animated_icon" tabindex="1"><img src="./img/msg_icon.png" alt="mail icon" class="msg-icon"></li>
+        <li class="list-navbar" tabindex="1"><a href="#project">Portfolio</a></li>
+        <li class="list-navbar" tabindex="1"><a href="#about">About me</a></li>
+        <li class="list-navbar" tabindex="1"><a href="#contact">Contact</a></li>
+        <li class="animated_icon" tabindex="1"><img src="./img/msg_icon.png" alt="mail draw" class="msg-icon"></li>
       </ul>
      </nav>
+    </div>
+    <!-- JS MENU-MOBILE -->
+    <div class="contenedor">
+      
+        <button class="x-remove">x</button>
+      
+      
+        <ul class="menu-js-links flex">
+          <li class="anchor-section"><a href="#project">Portfolio</a></li>
+          <li class="anchor-section"><a href="#about">About</a></li>
+          <li class="anchor-section"><a href="#contact">Contact</a></li>
+        </ul>
+      
     </div>
  </header>
 
@@ -45,10 +58,10 @@
     </ul>
   </section>
 
- <section class="project-section flex">
+ <section class="project-section flex" id="project">
     
 
-     <div class="devider-box flex">
+     <div class="devider-box flex ">
       <h2 id="recent_work">My Recent Works</h2>
           
       <span class="devider-line"></span>
@@ -174,7 +187,7 @@
   </section>  
  </section>
 
- <section class="about_me_page flex">
+ <section class="about_me_page flex" id="about">
 
   <div class="aboutme_box flex">
      <h2 id="aboutme-title">About me</h2>
@@ -222,7 +235,7 @@
   </div>
  </section>
 
- <section class="survey-page flex">
+ <section class="survey-page flex" id="contact">
 
   <h2 class="feedback_title">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
 
@@ -248,5 +261,6 @@
   </ul>
  </footer>
 
+ <script src="./js/main.js" ></script>
 </body>
 </html>

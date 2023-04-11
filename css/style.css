@@ -9,6 +9,10 @@
   display: grid;
 }
 
+.show {
+  display: block;
+}
+
 li {
   list-style: none;
 }
@@ -23,8 +27,10 @@ li {
 }
 
 a {
+  text-decoration: none;
   list-style: none;
   cursor: pointer;
+  color: #fff5e1;
 }
 
 .navbar-desktop {
@@ -56,7 +62,7 @@ a {
   font-family: 'Poppins', sans-serif;
   text-align: left;
   background-color: black;
-  background-image: url("./img/Group.png");
+  background-image: url("../img/Group.png");
   background-repeat: no-repeat;
   background-position: right 0 top 110%;
   flex-direction: column;
@@ -170,7 +176,7 @@ a {
 }
 
 .card {
-  background-image: url("./img/photofondo.png");
+  background-image: url("../img/photofondo.png");
   background-position: center;
   background-size: cover;
   flex-direction: column;
@@ -231,7 +237,7 @@ a {
 
 .about_me_page {
   background-color: #1c1a19;
-  background-image: url(./img/group2.png);
+  background-image: url(../img/group2.png);
   background-repeat: no-repeat;
   background-position: right 0 top 100%;
   padding: 30% 6% 50%;
@@ -405,7 +411,7 @@ textarea {
   }
 
   .landing_page {
-    background-image: url("./img/mainPage-desktop-img.png");
+    background-image: url("../img/mainPage-desktop-img.png");
     background-size: 42vw;
     background-position: 58vw;
     flex-direction: row;
@@ -460,7 +466,7 @@ textarea {
   }
 
   .about_me_page {
-    background-image: url(./img/aboutme-desktop-img.png);
+    background-image: url(../img/aboutme-desktop-img.png);
     flex-direction: row;
     justify-content: flex-start;
     background-size: 45vw;
@@ -530,15 +536,15 @@ textarea {
   }
 
   .project-img {
-    background-image: url(./img/project_img.png);
+    background-image: url(../img/project_img.png);
   }
 
   .project-img1 {
-    background-image: url(./img/project_img1.png);
+    background-image: url(../img/project_img1.png);
   }
 
   .project-img2 {
-    background-image: url(./img/project_img2.png);
+    background-image: url(../img/project_img2.png);
   }
 
   #submit-bttn {
