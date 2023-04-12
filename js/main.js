@@ -1,4 +1,4 @@
-//mobile-menu
+// mobile-menu
 const mobileMenu = document.querySelector('.contenedor');
 const menuBttn = document.getElementById('menu-icon');
 const anchorList = document.querySelectorAll('.anchor-section');
@@ -20,96 +20,99 @@ anchorList.forEach((anchorList) => {
 });
 // project.popUp
 const projectDeck = {
-  
+
   projectNro1: {
     img: '../img/popUp-img-P.png',
-    title: 'Profesional  project number 1',
-    descrip: 'A daily selection of privately personalized read',
+    title: 'Project number 1',
+    descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     tech: ['HTML', 'Bootstrap', 'Ruby'],
     liveBttn: 'https://enmanuelbayen.github.io/Portfolio/',
     sourceBttn: 'https://github.com/enmanuelbayen/Portfolio',
-  }, 
+  },
 
   projectNro2: {
-    img: 'popUp-img-P.png',
-    title: 'Profesional  project number 2',
-    descrip: 'A daily selection of privately personalized read',
+    img: '../img/popUp-img-P.png',
+    title: 'Project number 2',
+    descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     tech: ['HTML', 'Bootstrap', 'Ruby'],
     liveBttn: 'https://enmanuelbayen.github.io/Portfolio/',
     sourceBttn: 'https://github.com/enmanuelbayen/Portfolio',
-  }, 
+  },
 
   projectNro3: {
-    img: 'popUp-img-P.png',
-    title: 'Profesional  project number 3',
-    descrip: 'A daily selection of privately personalized read',
+    img: '../img/popUp-img-P.png',
+    title: 'Project number 3',
+    descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     tech: ['HTML', 'Bootstrap', 'Ruby'],
     liveBttn: 'https://enmanuelbayen.github.io/Portfolio/',
     sourceBttn: 'https://github.com/enmanuelbayen/Portfolio',
-  }, 
+  },
 
   projectNro4: {
-    img: 'popUp-img-P.png',
-    title: 'Profesional  project number 4',
-    descrip: 'A daily selection of privately personalized read',
+    img: '../img/popUp-img-P.png',
+    title: 'Project number 4',
+    descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     tech: ['HTML', 'Bootstrap', 'Ruby'],
     liveBttn: 'https://enmanuelbayen.github.io/Portfolio/',
     sourceBttn: 'https://github.com/enmanuelbayen/Portfolio',
-  }, 
+  },
 
   projectNro5: {
-    img: 'popUp-img-P.png',
-    title: 'Profesional  project number 5',
-    descrip: 'A daily selection of privately personalized read',
+    img: '../img/popUp-img-P.png',
+    title: 'Project number 5',
+    descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     tech: ['HTML', 'Bootstrap', 'Ruby'],
     liveBttn: 'https://enmanuelbayen.github.io/Portfolio/',
     sourceBttn: 'https://github.com/enmanuelbayen/Portfolio',
-  }, 
+  },
 
   projectNro6: {
-    img: 'popUp-img-P.png',
-    title: 'Profesional  project number 6',
-    descrip: 'A daily selection of privately personalized read',
+    img: '../img/popUp-img-P.png',
+    title: 'Project number 6',
+    descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     tech: ['HTML', 'Bootstrap', 'Ruby'],
     liveBttn: 'https://enmanuelbayen.github.io/Portfolio/',
     sourceBttn: 'https://github.com/enmanuelbayen/Portfolio',
-  }, 
-}
+  },
+};
 
-const projectBttn = document.getElementById('project-card1'); 
+const projectBttns = document.querySelectorAll('.project-button');
 
-projectBttn.addEventListener('click', () => {
-  const popUp = document.createElement('div');
-  popUp.className = 'popUp-container';
-  popUp.innerHTML = `
-  <div class="project-popup-card">
-  <div class="header-popup-card">
-  <h2 class="subtitle-pop-card">${projectDeck.projectNro1.title}</h2>
-  <button class="xBttn">X</button>
- </div> 
- <ul class="tech-popup-card">
-  <li class="tech-list">${projectDeck.projectNro1.tech[0]}</li>
-  <li class="tech-list">${projectDeck.projectNro1.tech[1]}</li>
-  <li class="tech-list">${projectDeck.projectNro1.tech[2]}</li>
-</ul>
- <div class="body-popup-card">
-  <img src="${projectDeck.projectNro1.img}" alt="PopUp project img">
-  <div class="text-popup-card">
-    <p class="paragrah-popup">${projectDeck.projectNro1.descrip}</p>
-    <button class="liveVersionBttn"><a href="${projectDeck.projectNro1.liveBttn}">See live</a></button>
-    <button class="sourceBttn"><a href="${projectDeck.projectNro1.sourceBttn}">See source</a></button>
-  </div>
- </div>
-</div>
-`;
+const bodyVar = document.querySelector('body');
 
-body.appendchild(popUp);
+projectBttns.forEach((projectBttn) => {
+  projectBttn.addEventListener('click', () => {
+    const projectNroId = projectBttn.id.replace('-button', '');
+    const projectDeckMain = projectDeck[projectNroId];
+    const popUp = document.createElement('div');
+    popUp.className = 'popUp-container';
+    popUp.innerHTML = `
+      <div class="project-popup-card">
+        <div class="header-popup-card">
+          <h2 class="subtitle-pop-card">${projectDeckMain.title}</h2>
+          <button class="xBttn">X</button>
+        </div> 
+        <ul class="tech-popup-card">
+          <li class="tech-list">${projectDeckMain.tech[0]}</li>
+          <li class="tech-list">${projectDeckMain.tech[1]}</li>
+          <li class="tech-list">${projectDeckMain.tech[2]}</li>
+        </ul>
+        <div class="body-popup-card">
+          <img src="${projectDeckMain.img}" alt="PopUp project img">
+          <p class="paragrah-popup">${projectDeckMain.descrip}</p>
+          <div class="text-popup-card">
+            <button class="liveVersionBttn"><a href="${projectDeckMain.liveBttn}">See live <img src="" alt="live icon"> </a></button>
+            <button class="sourceBttn"><a href="${projectDeckMain.sourceBttn}">See source <img src="" alt="github icon"></a></button>
+          </div>
+        </div>
+      </div>
+    `;
 
-const close = document.querySelectorAll('xBttn');
-close.addEventListener('click', () => {
-  body.removechild(popUp);
+      bodyVar.appendChild(popUp);
+
+    const close = document.querySelector('.xBttn');
+    close.addEventListener('click', () => {
+      bodyVar.removeChild(popUp);
+    });
+  });
 });
-});
-
-
-

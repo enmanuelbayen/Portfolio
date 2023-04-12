@@ -231,7 +231,7 @@ a {
   align-self: flex-start;
 }
 
-.button_project {
+.project-button {
   width: 100%;
 }
 
@@ -461,7 +461,7 @@ textarea {
     gap: 24px;
   }
 
-  .button_project {
+  .project-button {
     justify-content: end;
   }
 
