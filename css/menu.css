@@ -147,3 +147,64 @@
 .JSimg-icon{
   padding-left: 10px;
 }
+
+@media screen and (min-width: 768px) {
+
+  .project-popup-card{
+    padding: 2vw;
+    gap: 0;
+    width: 90%;
+  }
+  
+  .header-popup-card{
+    padding-top: 2vw;
+  }
+  
+  .subtitle-pop-card{
+    font-size: 32px;
+  }
+  
+  .xBttn{
+    font-size: 20px;
+  }
+  
+  .tech-popup-card{
+    padding: 4px 0 5vw;
+  }
+    
+  .paragrah-popup-mobile{
+    display: none;
+  }
+  
+  .paragrah-popup-desk{
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 3vw;
+  }
+  
+  .body-popup-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+  
+  .JSproject-img{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .text-popup-card{
+   display: block;
+  }
+  
+  .liveVersionBttn{
+    margin-top: 12%;
+  }
+  
+  .sourceBttn{
+    margin-left: 10px;
+  }
+  
+  }
