@@ -74,6 +74,15 @@ const projectDeck = {
     liveBttn: 'https://enmanuelbayen.github.io/Portfolio/',
     sourceBttn: 'https://github.com/enmanuelbayen/Portfolio',
   },
+
+  projectNro7: {
+    img: '../img/popUp-img-P.png',
+    title: 'Multi Post Stories',
+    descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    tech: ['HTML', 'Bootstrap', 'Ruby', 'CSS'],
+    liveBttn: 'https://enmanuelbayen.github.io/Portfolio/',
+    sourceBttn: 'https://github.com/enmanuelbayen/Portfolio',
+  },
 };
 
 const projectBttns = document.querySelectorAll('.project-button');

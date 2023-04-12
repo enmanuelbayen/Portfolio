@@ -55,9 +55,8 @@
   justify-content: center;
   align-items: center;
   position: fixed;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
   top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   z-index: 5000;
@@ -66,13 +65,11 @@
 .project-popup-card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  gap: 4vw;
   position: fixed;
   background-color: white;
   box-sizing: border-box;
   width: 91%;
-  height: 85%;
   z-index: 1000;
   padding: 10px;
 }
