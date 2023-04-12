@@ -32,8 +32,8 @@ const projectDeck = {
   },
 
   projectNro2: {
-    img: '../img/popUp-img-P.png',
-    title: 'Mario kart prototype',
+    img: '../img/project_img1.png',
+    title: 'Data Dashboard Healthcare',
     descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     descripDesk: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley.',
     tech: ['HTML', 'Bootstrap', 'Ruby On rail'],
@@ -42,8 +42,8 @@ const projectDeck = {
   },
 
   projectNro3: {
-    img: '../img/popUp-img-P.png',
-    title: 'Facebook blog',
+    img: '../img/project_img2.png',
+    title: 'Website Portfolio',
     descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     descripDesk: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley.',
     tech: ['HTML', 'Bootstrap', 'Ruby On rail'],
@@ -52,8 +52,8 @@ const projectDeck = {
   },
 
   projectNro4: {
-    img: '../img/popUp-img-P.png',
-    title: 'Portfolio project nr4',
+    img: '../img/photofondo.png',
+    title: 'Profesional Art Printing Data More',
     descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     descripDesk: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley.',
     tech: ['HTML', 'Bootstrap', 'Ruby On rail'],
@@ -62,8 +62,8 @@ const projectDeck = {
   },
 
   projectNro5: {
-    img: '../img/popUp-img-P.png',
-    title: 'Sudoku Game  nr5',
+    img: '../img/project_img1.png',
+    title: 'Data Dashboard Healthcare',
     descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     descripDesk: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley.',
     tech: ['HTML', 'Bootstrap', 'Ruby On rail'],
@@ -72,8 +72,8 @@ const projectDeck = {
   },
 
   projectNro6: {
-    img: '../img/popUp-img-P.png',
-    title: 'Incoming Project nr6',
+    img: '../img/project_img2.png',
+    title: 'Website Portfolio',
     descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     descripDesk: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley.',
     tech: ['HTML', 'Bootstrap', 'Ruby On rail'],
@@ -82,7 +82,7 @@ const projectDeck = {
   },
 
   projectNro7: {
-    img: '../img/popUp-img-P.png',
+    img: '../img/work1.png',
     title: 'Multi-Post Stories',
     descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     descripDesk: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley.',
@@ -93,7 +93,6 @@ const projectDeck = {
 };
 
 const projectBttns = document.querySelectorAll('.project-button');
-
 
 const cardSection = document.getElementById('popupWindow');
 
@@ -115,7 +114,9 @@ projectBttns.forEach((projectBttn) => {
           <li class="tech-list">${projectDeckMain.tech[2]}</li>
         </ul>
         <div class="body-popup-card">
-          <img class="JSproject-img" src="${projectDeckMain.img}" alt="PopUp project img">
+          <div class="JSimg-box">
+            <img class="JSproject-img" src="${projectDeckMain.img}" alt="PopUp project img">
+          </div>
           <p class="paragrah-popup-mobile">${projectDeckMain.descrip}</p>
           <div class="text-popup-card">
             <p class="paragrah-popup-desk">${projectDeckMain.descripDesk} <br> <br> ${projectDeckMain.descripDesk}</p>
@@ -125,7 +126,6 @@ projectBttns.forEach((projectBttn) => {
         </div>
       </div>
     `;
-
 
     cardSection.appendChild(popUp);
 

@@ -154,6 +154,7 @@
     padding: 2vw;
     gap: 0;
     width: 90%;
+    height: 90%;
   }
 
   .header-popup-card {
@@ -186,13 +187,22 @@
 
   .body-popup-card {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 25px;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .JSimg-box {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
   }
 
   .JSproject-img {
-    height: 100%;
+    height: 93%;
     width: 100%;
+    object-fit: cover;
   }
 
   .text-popup-card {
