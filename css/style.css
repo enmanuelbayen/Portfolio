@@ -387,6 +387,15 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
+
+  .card:hover > button{
+    display: block;
+  }
+
+  .card:hover > *:not(button){
+    display: none;
+  }
+
   .header {
     justify-content: space-evenly;
   }
