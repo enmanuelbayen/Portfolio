@@ -152,14 +152,17 @@
 /* Error msg */
 
 .email-error-msg {
-  border: 1px solid orange;
-  background-color: red;
-  color: aliceblue;
+  display: none;
+  border: 1px solid red;
+  background-color: #b869696b;
+  color: rgb(22, 57, 115);
   text-align: center;
   border-radius: 7px;
-  font-family: 'Inter', sans-serif;
-  padding: 5px 0;
+  padding: 8px;
   margin-bottom: 5px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
 }
 
 @media screen and (min-width: 768px) {
