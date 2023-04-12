@@ -23,7 +23,7 @@ const projectDeck = {
 
   projectNro1: {
     img: '../img/popUp-img-P.png',
-    title: 'Project number 1',
+    title: 'Keeping track of hundreds  of components website',
     descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     descripDesk: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley.',
     tech: ['HTML', 'Bootstrap', 'Ruby On rail'],
@@ -33,7 +33,7 @@ const projectDeck = {
 
   projectNro2: {
     img: '../img/popUp-img-P.png',
-    title: 'Project number 2',
+    title: 'Mario kart prototype',
     descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     descripDesk: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley.',
     tech: ['HTML', 'Bootstrap', 'Ruby On rail'],
@@ -43,7 +43,7 @@ const projectDeck = {
 
   projectNro3: {
     img: '../img/popUp-img-P.png',
-    title: 'Project number 3',
+    title: 'Facebook blog',
     descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     descripDesk: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley.',
     tech: ['HTML', 'Bootstrap', 'Ruby On rail'],
@@ -53,7 +53,7 @@ const projectDeck = {
 
   projectNro4: {
     img: '../img/popUp-img-P.png',
-    title: 'Project number 4',
+    title: 'Portfolio project nr4',
     descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     descripDesk: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley.',
     tech: ['HTML', 'Bootstrap', 'Ruby On rail'],
@@ -63,7 +63,7 @@ const projectDeck = {
 
   projectNro5: {
     img: '../img/popUp-img-P.png',
-    title: 'Project number 5',
+    title: 'Sudoku Game  nr5',
     descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     descripDesk: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley.',
     tech: ['HTML', 'Bootstrap', 'Ruby On rail'],
@@ -73,7 +73,7 @@ const projectDeck = {
 
   projectNro6: {
     img: '../img/popUp-img-P.png',
-    title: 'Project number 6',
+    title: 'Incoming Project nr6',
     descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     descripDesk: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley.',
     tech: ['HTML', 'Bootstrap', 'Ruby On rail'],
@@ -83,10 +83,10 @@ const projectDeck = {
 
   projectNro7: {
     img: '../img/popUp-img-P.png',
-    title: 'Multi Post Stories',
+    title: 'Multi-Post Stories',
     descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     descripDesk: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley.',
-    tech: ['HTML', 'Bootstrap', 'Ruby', 'CSS'],
+    tech: ['HTML', 'Bootstrap', 'Ruby on rails', 'CSS'],
     liveBttn: 'https://enmanuelbayen.github.io/Portfolio/',
     sourceBttn: 'https://github.com/enmanuelbayen/Portfolio',
   },
@@ -94,7 +94,8 @@ const projectDeck = {
 
 const projectBttns = document.querySelectorAll('.project-button');
 
-const bodyVar = document.querySelector('body');
+
+const cardSection = document.getElementById('popupWindow');
 
 projectBttns.forEach((projectBttn) => {
   projectBttn.addEventListener('click', () => {
@@ -125,11 +126,12 @@ projectBttns.forEach((projectBttn) => {
       </div>
     `;
 
-    bodyVar.appendChild(popUp);
+
+    cardSection.appendChild(popUp);
 
     const close = document.querySelector('.xBttn');
     close.addEventListener('click', () => {
-      bodyVar.removeChild(popUp);
+      cardSection.removeChild(popUp);
     });
   });
 });
