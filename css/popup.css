@@ -149,6 +149,19 @@
   padding-left: 10px;
 }
 
+/* Error msg */
+
+.email-error-msg{
+border: 1px solid orange;
+background-color: red;
+color: aliceblue;
+text-align: center;
+border-radius: 7px;
+font-family: 'Inter', sans-serif;
+padding: 5px 0;
+margin-bottom: 5px;
+}
+
 @media screen and (min-width: 768px) {
   .project-popup-card {
     padding: 2vw;
