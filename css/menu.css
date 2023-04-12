@@ -1,4 +1,4 @@
-
+/* MOBILE MENU SHOW */
 .contenedor {
   display: none;
   position: fixed;
@@ -46,4 +46,174 @@
   padding-bottom: 5px;
   padding-left: 20px;
   width: 80%;
+}
+
+/* POP UP WINDOWN */
+
+.popUp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  backdrop-filter: blur(20px);
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5000;
+}
+
+.project-popup-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4vw;
+  position: fixed;
+  background-color: white;
+  box-sizing: border-box;
+  width: 91%;
+  z-index: 1000;
+  padding: 10px;
+}
+
+.header-popup-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 4vw;
+}
+
+.xBttn {
+  background: transparent;
+  color: #6f6c6b;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  font-size: 5vw;
+  padding-right: 15px;
+}
+
+.subtitle-pop-card {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 7vw;
+}
+
+.tech-popup-card {
+  align-self: flex-start;
+  display: flex;
+  gap: 12px;
+  padding: 16% 0 6%;
+}
+
+.tech-list {
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
+}
+
+.JSproject-img {
+  width: 100%;
+}
+
+.paragrah-popup-mobile {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 13px 0;
+}
+
+.paragrah-popup-desk {
+  display: none;
+}
+
+.text-popup-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.liveVersionBttn,
+.sourceBttn {
+  color: #fff;
+  background-color: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  padding: 12px;
+  border: none;
+}
+
+.JSimg-icon {
+  padding-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .project-popup-card {
+    padding: 2vw;
+    gap: 0;
+    width: 90%;
+    height: 90%;
+  }
+
+  .header-popup-card {
+    padding-top: 2vw;
+  }
+
+  .subtitle-pop-card {
+    font-size: 32px;
+  }
+
+  .xBttn {
+    font-size: 20px;
+  }
+
+  .tech-popup-card {
+    padding: 4px 0 5vw;
+  }
+
+  .paragrah-popup-mobile {
+    display: none;
+  }
+
+  .paragrah-popup-desk {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 3vw;
+  }
+
+  .body-popup-card {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 25px;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .JSimg-box {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+
+  .JSproject-img {
+    height: 93%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .text-popup-card {
+    display: block;
+  }
+
+  .liveVersionBttn {
+    margin-top: 12%;
+  }
+
+  .sourceBttn {
+    margin-left: 10px;
+  }
 }

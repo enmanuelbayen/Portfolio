@@ -227,11 +227,12 @@ a {
   padding: 10px 12px;
 }
 
-#button-work-page {
+#projectNro7-button {
   align-self: flex-start;
+  width: 124px;
 }
 
-.button_project {
+.project-button {
   width: 100%;
 }
 
@@ -386,6 +387,14 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
+  .card:hover > button {
+    display: block;
+  }
+
+  .card:hover > *:not(button) {
+    display: none;
+  }
+
   .header {
     justify-content: space-evenly;
   }
@@ -461,7 +470,7 @@ textarea {
     gap: 24px;
   }
 
-  .button_project {
+  .project-button {
     justify-content: end;
   }
 
