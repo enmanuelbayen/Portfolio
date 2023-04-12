@@ -125,7 +125,7 @@ projectBttns.forEach((projectBttn) => {
       </div>
     `;
 
-      bodyVar.appendChild(popUp);
+    bodyVar.appendChild(popUp);
 
     const close = document.querySelector('.xBttn');
     close.addEventListener('click', () => {

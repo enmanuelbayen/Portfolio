@@ -74,15 +74,15 @@
   padding: 10px;
 }
 
-.header-popup-card{
+.header-popup-card {
   display: flex;
   align-items: center;
-  justify-content: space-between; 
+  justify-content: space-between;
   width: 100%;
   padding-top: 4vw;
 }
 
-.xBttn{
+.xBttn {
   background: transparent;
   color: #6f6c6b;
   cursor: pointer;
@@ -92,30 +92,30 @@
   padding-right: 15px;
 }
 
-.subtitle-pop-card{
-  font-family: 'Roboto';
+.subtitle-pop-card {
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 7vw;
 }
 
-.tech-popup-card{
+.tech-popup-card {
   align-self: flex-start;
   display: flex;
   gap: 12px;
   padding: 16% 0 6%;
 }
 
-.tech-list{
+.tech-list {
   border: 1px solid #8993a4;
   padding: 10px 12px;
 }
 
-.JSproject-img{
+.JSproject-img {
   width: 100%;
 }
 
-.paragrah-popup-mobile{
+.paragrah-popup-mobile {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -123,17 +123,18 @@
   margin: 13px 0;
 }
 
-.paragrah-popup-desk{
+.paragrah-popup-desk {
   display: none;
 }
 
-.text-popup-card{
+.text-popup-card {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.liveVersionBttn, .sourceBttn{
+.liveVersionBttn,
+.sourceBttn {
   color: #fff;
   background-color: #ff6b00;
   font-family: 'Inter', sans-serif;
@@ -144,67 +145,65 @@
   border: none;
 }
 
-.JSimg-icon{
+.JSimg-icon {
   padding-left: 10px;
 }
 
 @media screen and (min-width: 768px) {
-
-  .project-popup-card{
+  .project-popup-card {
     padding: 2vw;
     gap: 0;
     width: 90%;
   }
-  
-  .header-popup-card{
+
+  .header-popup-card {
     padding-top: 2vw;
   }
-  
-  .subtitle-pop-card{
+
+  .subtitle-pop-card {
     font-size: 32px;
   }
-  
-  .xBttn{
+
+  .xBttn {
     font-size: 20px;
   }
-  
-  .tech-popup-card{
+
+  .tech-popup-card {
     padding: 4px 0 5vw;
   }
-    
-  .paragrah-popup-mobile{
+
+  .paragrah-popup-mobile {
     display: none;
   }
-  
-  .paragrah-popup-desk{
+
+  .paragrah-popup-desk {
     display: block;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 3vw;
   }
-  
-  .body-popup-card{
+
+  .body-popup-card {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 25px;
   }
-  
-  .JSproject-img{
+
+  .JSproject-img {
     height: 100%;
     width: 100%;
   }
-  
-  .text-popup-card{
-   display: block;
+
+  .text-popup-card {
+    display: block;
   }
-  
-  .liveVersionBttn{
+
+  .liveVersionBttn {
     margin-top: 12%;
   }
-  
-  .sourceBttn{
+
+  .sourceBttn {
     margin-left: 10px;
   }
-  
-  }
+}
