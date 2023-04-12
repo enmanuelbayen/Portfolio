@@ -79,6 +79,7 @@ const projectDeck = {
     img: '../img/popUp-img-P.png',
     title: 'Multi Post Stories',
     descrip: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    descripDesk: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley.',
     tech: ['HTML', 'Bootstrap', 'Ruby', 'CSS'],
     liveBttn: 'https://enmanuelbayen.github.io/Portfolio/',
     sourceBttn: 'https://github.com/enmanuelbayen/Portfolio',
@@ -110,7 +111,7 @@ projectBttns.forEach((projectBttn) => {
           <img class="JSproject-img" src="${projectDeckMain.img}" alt="PopUp project img">
           <p class="paragrah-popup-mobile">${projectDeckMain.descrip}</p>
           <div class="text-popup-card">
-            <p class="paragrah-popup-desk">${projectDeckMain.descrip}</p>
+            <p class="paragrah-popup-desk">${projectDeckMain.descripDesk} <br> <br> ${projectDeckMain.descripDesk}</p>
             <button class="liveVersionBttn"><a href="${projectDeckMain.liveBttn}">See live <img class="JSimg-icon" src="../img/liveBttn-icon.png" alt="live icon"> </a></button>
             <button class="sourceBttn"><a href="${projectDeckMain.sourceBttn}">See source <img class="JSimg-icon" src="../img/sourceGithub-icon.png" alt="github icon"></a></button>
           </div>
