@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/popup.css">
     <title>Enmanuel Bayen - Portfolio - Home page</title>
 </head>
 
@@ -239,12 +239,13 @@
 
   <h2 class="feedback_title">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
 
- <form class="form_contact flex" action="https://formspree.io/f/mdovwnqn" method="post">
+ <form class="form_contact flex" action="https://formspree.io/f/mdovwnqn" method="post" id="contactForm">
 
        
-        <input class="input_contact" type="text" name="user_name" maxlength="30" placeholder="Full name" required>
-        <input class="input_contact" type="email" name="user_email" placeholder="Email address" required>
-       <textarea name="user_message" maxlength="500" placeholder="Write me something..." required></textarea>
+        <input id="text-contact" class="input_contact" type="text" name="user_name" maxlength="30" placeholder="Full name" required>
+        <div class="email-error-msg"></div>
+        <input id="email-contact" class="input_contact" type="email" name="user_email" placeholder="Email address" required>
+        <textarea name="user_message" maxlength="500" placeholder="Write me something..." required></textarea>
 
   <input class="button"  id="submit-bttn" value="Get in touch" type="submit">
  </form>
@@ -264,5 +265,6 @@
  <section id="popupWindow"></section>
 
  <script src="./js/main.js" ></script>
+ <script src="./js/form.js" ></script>
 </body>
 </html>
