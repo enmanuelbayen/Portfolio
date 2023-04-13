@@ -152,6 +152,12 @@ Work in progress.
 - Twitter: [@GabrielRozas12](https://twitter.com/GabrielRozas12)
 - LinkedIn: [grozas](https://www.linkedin.com/in/grozas/)
 
+👤 Sergio Peralta
+
+- GitHub: [@SergioPeralta22](https://github.com/SergioPeralta22)
+- Twitter: [@SePeralta22](https://twitter.com/SePeralta22)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/sergioperalta22)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
